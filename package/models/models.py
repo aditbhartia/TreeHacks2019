@@ -35,7 +35,7 @@ class Relationship(db.Model):
         address = 'https://api.twilio.com' + number.uri
 
         data = {
-            'SmsUrl': 'http://9237c256.ngrok.io/sms',
+            'SmsUrl': 'http://54ba138f.ngrok.io/sms',
         }
 
         #create webhook
