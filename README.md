@@ -8,7 +8,7 @@ To set up for development purposes:
 
 3) Replace all Twilio Keys and IDs with your own (preferably using environment variables) in models.py, routes.py, and config.py
 
-4) Set the Google Translate Authentication Path in your terminal.
+4) Set the Google Translate Authentication Path in your terminal, using export GOOGLE_APPLICATION_CREDENTIALS="[PATH]".
 
 5) Set the SmsURL in models.py to whatever your endpoint is for smses.
 
